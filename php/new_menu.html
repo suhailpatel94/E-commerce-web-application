@@ -1,0 +1,29 @@
+<link rel=stylesheet href=../css/new_menu.css>
+<ul id="menu">
+    <li><a href="home.php">Home</a></li>
+    <li>
+        <a href="particular_product_category.php?cat=All Products">Shop</a>
+        <ul>
+            <li><a href="product_category.php">Categories</a>
+				<ul>
+					<li><a href="particular_product_category.php?cat=fruits">Fruits</a></li>
+					<li><a href="particular_product_category.php?cat=vegetables">Vegetables</a></li>
+					<li><a href="particular_product_category.php?cat=Kitchen">Kitchen</a></li>
+				</ul>
+			</li>
+           
+        </ul>
+    </li>
+    <li><a href="cart.php">Cart</a></li>
+
+	 <li><a href="register_form.php">Register</a></li>
+	  <li style="float:right;">
+						
+						<form action="particular_product_category.php?cat=search" method="post">		   
+							
+							<input type="search" style="padding:9px" name=search id=search  placeholder="Search...">
+						</form>
+						
+	</li>
+	 
+</ul>
