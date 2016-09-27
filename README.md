@@ -1,9 +1,5 @@
 # E-commerce web application
 
-###Description
-
-The application is developed using Php and MySQL.  Products are displayed on the website. Registered users can add or remove products to and from the cart. Payment is done using Paypal.
-
 ###How to run  
 1. Install xampp.
 2. Copy the php and css folders in htdocs folder.  
